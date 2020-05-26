@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VolumeLimiter</string>
+    <string name="maximum_music_volume">Maximum Music Volume Limit</string>
+</resources>

@@ -1,4 +1,4 @@
-package in.zums.volumelimiter;
+package com.ys.volumelimiter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.SeekBar;
 
-import in.zums.volumelimiter.databinding.ActivityMainBinding;
+import com.ys.volumelimiter.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";

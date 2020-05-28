@@ -1,4 +1,4 @@
-package in.zums.volumelimiter;
+package com.ys.volumelimiter;
 
 import android.app.AlarmManager;
 import android.app.Notification;

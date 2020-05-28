@@ -9,7 +9,7 @@ android {
 
 
     defaultConfig {
-        applicationId "in.zums.volumelimiter"
+        applicationId "com.ys.volumelimiter"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

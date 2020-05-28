@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.zums.volumelimiter">
+    package="com.ys.volumelimiter">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
@@ -13,19 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:fullBackupContent="true">
-        <activity android:name="in.zums.volumelimiter.MainActivity">
+        <activity android:name="com.ys.volumelimiter.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name="in.zums.volumelimiter.VolumeControlService" />
+        <service android:name="com.ys.volumelimiter.VolumeControlService" />
 
-        <receiver android:name=".receiver.BootCompletedReceiver"
+        <receiver android:name="com.ys.volumelimiter.receiver.BootCompletedReceiver"
             android:enabled="true"
-            android:exported="true"
-            android:directBootAware="true">
+            android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
